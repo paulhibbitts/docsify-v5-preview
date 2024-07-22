@@ -2,9 +2,9 @@
 
 - Test files
 
-- [Markdown File Test](test.md)
-- [Pre Tag Test](test-2.md)
-- [Multiple Classes Test](test-3.md)
+  - [Markdown File Test](test.md)
+  - [Pre Tag Test](test-2.md)
+  - [Multiple Classes Test](test-3.md)
 
 - Getting started
 
