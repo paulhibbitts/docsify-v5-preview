@@ -26,6 +26,7 @@ grunt.initConfig({
 </pre>
 
 ````markdown
+```js
 grunt.initConfig({
   assemble: {
     options: {
@@ -44,6 +45,7 @@ grunt.initConfig({
     }
   }
 };
+```js
 ````
 
 Renders to:
