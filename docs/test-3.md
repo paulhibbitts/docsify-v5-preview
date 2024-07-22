@@ -13,3 +13,12 @@ Markdown:
 HTML:  
 `<a href="https://google.com " class="button primary">Primary Button</a>`  
 <a href="https://google.com " class="button primary">Primary Button</a>
+
+OTHER TESTS
+
+`[Text](page.md ':target=_blank :class=foo bar')`  
+[Text](page.md ':target=_blank :class=foo bar')
+
+`[Text](page.md ':class=foo bar :target=_blank ')`  
+[Text](page.md ':class=foo bar :target=_blank ')
+
