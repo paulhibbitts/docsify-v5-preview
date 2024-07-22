@@ -7,7 +7,7 @@
   - [Cover page](cover.md)
   - [Custom navbar](custom-navbar.md)
 
-- [Test](test.md)
+- [Markdown File Test](test.md)
 
 
 - Customization
