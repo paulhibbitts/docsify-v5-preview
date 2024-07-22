@@ -1,15 +1,16 @@
 <!-- markdownlint-disable first-line-h1 -->
 
+- Test files
+
+- [Markdown File Test](test.md)
+- [Markdown File Test 2](test-2.md)
+
 - Getting started
 
   - [Quick start](quickstart.md)
   - [Adding pages](adding-pages.md)
   - [Cover page](cover.md)
   - [Custom navbar](custom-navbar.md)
-
-- [Markdown File Test](test.md)
-- [Markdown File Test 2](test-2.md)
-
 
 - Customization
 
