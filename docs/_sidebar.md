@@ -8,6 +8,7 @@
   - [Custom navbar](custom-navbar.md)
 
 - [Markdown File Test](test.md)
+- [Markdown File Test 2](test-2.md)
 
 
 - Customization
