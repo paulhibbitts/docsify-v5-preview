@@ -14,7 +14,7 @@ HTML:
 `<a href="https://google.com " class="button primary">Primary Button</a>`  
 <a href="https://google.com " class="button primary">Primary Button</a>
 
-```
+
 Markdown:  
 `[Primary Button](https://google.com '{{class: "button primary"}}')`  
 [Primary Button](https://google.com '{{class: "button primary"}}')
@@ -28,7 +28,7 @@ Markdown:
 
 HTML:  
 <a href="page.md" foo="true" target="_blank" class="bar baz" title="This is the title">Text</a>
-```
+
 
 OTHER TESTS
 
