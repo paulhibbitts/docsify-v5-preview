@@ -34,6 +34,9 @@ Markdown:
 HTML:  
 <a href="page.md" foo="true" target="_blank" class="bar baz" title="This is the title">Text</a>
 
+Markdown:  
+[Text](page.md ':[foo target="_blank" class="bar baz"]  This is the title')  
+
 OTHER TESTS
 
 `[Text](page.md ':target=_blank :class=foo bar')`  
