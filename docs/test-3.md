@@ -28,7 +28,7 @@ Markdown (unsupported):
 [Text](page.md '{foo: true, target: "_blank" class: "bar baz"}  This is the title')  
 
 Markdown:  
-`[Text](page.md '{{foo: true, target: "_blank" class: "bar baz"}}  This is the title')`
+`[Text](page.md '{{foo: true, target: "_blank" class: "bar baz"}}  This is the title')`  
 [Text](page.md '{{foo: true, target: "_blank" class: "bar baz"}}  This is the title')  
 
 HTML:  
