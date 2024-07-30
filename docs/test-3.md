@@ -24,14 +24,15 @@ HTML:
 <a href="https://google.com " class="button primary">Primary Button</a>
 
 Markdown (unsupported):    
-`[Text](page.md '{foo: true, target: "_blank" class: "bar baz"}  This is the title')`
+`[Text](page.md '{foo: true, target: "_blank" class: "bar baz"}  This is the title')`  
+[Text](page.md '{foo: true, target: "_blank" class: "bar baz"}  This is the title')  
 
 Markdown:  
 `[Text](page.md '{{foo: true, target: "_blank" class: "bar baz"}}  This is the title')`
+[Text](page.md '{{foo: true, target: "_blank" class: "bar baz"}}  This is the title')  
 
 HTML:  
 <a href="page.md" foo="true" target="_blank" class="bar baz" title="This is the title">Text</a>
-
 
 OTHER TESTS
 
