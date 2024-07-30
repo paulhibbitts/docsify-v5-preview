@@ -23,6 +23,9 @@ HTML:
 `<a href="https://google.com " class="button primary">Primary Button</a>`  
 <a href="https://google.com " class="button primary">Primary Button</a>
 
+Markdown (unsupported):    
+`[Text](page.md '{foo: true, target: "_blank" class: "bar baz"}  This is the title')`
+
 Markdown:  
 `[Text](page.md '{{foo: true, target: "_blank" class: "bar baz"}}  This is the title')`
 
