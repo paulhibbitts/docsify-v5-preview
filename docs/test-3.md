@@ -16,7 +16,7 @@ HTML:
 
 Markdown:  
 `[Primary Button](https://google.com '{{class: "button primary"}}')`  
-[Primary Button](https://google.com '{{class: "button primary"}}')'
+[Primary Button](https://google.com '{{class: "button primary"}}')
 
 HTML:  
 `<a href="https://google.com " class="button primary">Primary Button</a>`  
