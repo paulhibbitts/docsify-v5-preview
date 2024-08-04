@@ -5,6 +5,7 @@
 - [Topics](#)
 - [Resources](#)
 - [UX Techniques Guide](#)
+- [UX News Feeds](#)
 - [Contact](#)
 
 - Translations
