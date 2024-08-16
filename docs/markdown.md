@@ -1,6 +1,6 @@
 # Markdown configuration
 
-**docsify** uses [marked](https://github.com/markedjs/marked) as its Markdown parser. You can customize how it renders your Markdown content to HTML by customizing `renderer`:
+**docsify** uses [marked v13+](https://github.com/markedjs/marked) as its Markdown parser. You can customize how it renders your Markdown content to HTML by customizing `renderer`:
 
 ```js
 window.$docsify = {
@@ -29,12 +29,14 @@ window.$docsify = {
 };
 ```
 
-## Supports mermaid
+## Limited Support of mermaid
+
+!> Currently, docsify only supports mermaid version `v9.3.0` (as the async render in mermaid `v10.x` is not yet supported in docsify)
 
 ```js
-// Import mermaid
-//  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">
-//  <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+
+// <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">
+// <script src="https://cdn.jsdelivr.net/npm/mermaid@9.3.0/dist/mermaid.min.js"></script>
 
 let num = 0;
 mermaid.initialize({ startOnLoad: false });
@@ -42,12 +44,12 @@ mermaid.initialize({ startOnLoad: false });
 window.$docsify = {
   markdown: {
     renderer: {
-      code(code, lang) {
+      code({ text, lang }) {
         if (lang === 'mermaid') {
           return /* html */ `
             <div class="mermaid">${mermaid.render(
               'mermaid-svg-' + num++,
-              code,
+              text,
             )}</div>
           `;
         }
@@ -56,4 +58,27 @@ window.$docsify = {
     },
   },
 };
+```
+
+**Example Mermaid Diagram**
+
+```mermaid
+graph LR
+    A --- B
+    B-->C[fa:fa-ban forbidden]
+    B-->D(fa:fa-spinner);
+```
+
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
 ```
