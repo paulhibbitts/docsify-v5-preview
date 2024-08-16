@@ -1,13 +1,4 @@
 <!-- markdownlint-disable first-line-h1 -->
-
-- [Home](#)
-- [Schedule](#)
-- [Topics](#)
-- [Resources](#)
-- [UX Techniques Guide](#)
-- [UX News Feeds](#)
-- [Contact](#)
-
 - Translations
 
   - [English](/)
