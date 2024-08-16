@@ -6,6 +6,7 @@
   - [Pre Tag Test](test-2.md)
   - [Multiple Classes Test](test-3.md)
   - [Headers](test-4.md)
+  - [Mermaid](test-5.md)
 
 - Getting started
 
