@@ -1,6 +1,6 @@
-#### Page Appearance URL Parameters
+### Page Appearance URL Parameters
 
-##### Base URL Parameters (included in the standard Web Page Builder)
+#### Base URL Parameters (included in the standard Web Page Builder)
 
 * [browser-tab-title](/?id=browser-tab-title)
 * [edit-link](/?id=edit-link)
@@ -20,11 +20,11 @@
 * [toc-narrow](/?id=toc-narrow)
 * [zoom-images](/?id=zoom-images)
 
-###### browser-tab-title
+##### browser-tab-title
 Set a custom title on Browser tab for your standalone pages with the optional **browser-tab-title** parameter, for example:  
 https://docsify-this-test-v2.netlify.app/?basePath=https://raw.githubusercontent.com/paulhibbitts/demo-grav-open-matter-course-hub/master/pages/04.resources&homepage=page.md&browser-tab-title=Resources Please note to use titles with spaces they must be [encoded](https://meyerweb.com/eric/tools/dencoder/), so "My Page" would be "My%20Page".  
 
-###### edit-link
+##### edit-link
 Display a "Edit this Page" link (default location is bottom of page) with the optional **edit-link** parameter, for example:  
 https://docsify-this-test-v2.netlify.app/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-course-starter-kit/main&edit-link=https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/blob/main/README.md
 
