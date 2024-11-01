@@ -6,7 +6,6 @@
   - [Pre Tag Test](test-2.md)
   - [Multiple Classes Test](test-3.md)
   - [Headers](test-4.md)
-  - [Mermaid](test-5.md)
   - [Header Links](test-6.md)
   - [Font Awesome](test-7.md)
 
