@@ -8,6 +8,7 @@
   - [Headers](test-4.md)
   - [Mermaid](test-5.md)
   - [Header Links](test-6.md)
+  - [Font Awesome](test-7.md)
 
 - Getting started
 
